@@ -1,0 +1,344 @@
+/* navbar section */
+.navbar-brand{
+    font-weight:600;
+}
+.justify-content-between{
+    justify-content: space-between !important;
+}
+.position-relative{
+    position: relative !important;
+}
+li{
+    padding-left: 1rem;
+}
+.nav-item a{
+   position: relative;
+}
+.nav-item a::before {
+   content: '';
+   position: absolute;
+ height: 2px;
+ width: 0%;
+ background: blue;
+ left: 10%;
+ top:90%;
+ transition: 0.6s linear;
+ 
+}
+
+.nav-item a:hover::before {
+
+   width: 90%;
+
+}
+/* hero image section */
+/* .hero-image{
+   width:100%;
+   height:40%
+    
+} */
+ .hero-part{
+    width: 100%;
+    height: 400px;
+    background-image: url('1.jpg');
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+ }
+ .hero-text{
+    
+    color: aliceblue;
+ }
+
+ .location .topic{
+   cursor: pointer;
+ }
+ 
+ .location h5:hover{
+   background-color: aqua;
+ }
+ .but1{
+    background-color: rgb(31, 31, 184);
+    color: rgb(207, 218, 227);
+    border-radius: 4px;
+ }
+ .but1:hover{
+    background-color:rgb(255, 255, 255);
+    color:black
+ }
+ a{
+   color: aliceblue;
+   padding: 0.3rem;
+
+ }
+ .watch:hover{
+   background-color: rgb(31, 31, 184);
+ }
+ /* THe types of places in here */
+ 
+ .location{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 2rem;
+  
+  }
+ .topic{
+
+    background-color: rgb(53, 165, 230);
+    border-radius: 40px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    text-transform: uppercase;
+   padding:8px 20px;
+  }
+  .loc{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+  }
+  /* 1
+ 1
+ the first box */
+.row{
+   background-color: rgb(243, 240, 237);
+
+   padding: 5rem 0;
+}
+.card{
+  height: 100%;
+  animation: fade-up 3s ease-in-out; /* Animation properties */
+  animation-delay: 0.5s;
+  
+  
+}
+@keyframes fade-up{
+   0%{
+      opacity: 0;
+
+   }
+   100% {
+      opacity: 1; /* End with full opacity */
+    }
+}
+.card:hover {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   transform: scale(1.05);
+}
+.pic-3{
+   padding: 0.5rem;
+   margin-bottom: 1rem;
+}
+button:hover{
+   background-color: rgb(255, 236, 162);
+   color:black;
+   }
+/* about us  */
+.aboutimg{
+   max-width: 100%;
+   height: auto;
+
+}
+.about ul li{
+   display: flex;
+  gap: 1rem;
+  list-style: none;
+   align-items: center;
+   margin-top: 35px;
+   margin-bottom: 35px;
+  
+}
+.about ul i{
+   background-color: rgb(246, 246, 246);
+   box-shadow: 0px 3px 10px;
+   display: flex;
+   list-style: none;
+   justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 50px;
+    height: 45px;
+ }
+ .about ul{
+   padding: 0rem;
+ }
+ /* services starts from here */
+ 
+ h3{
+   color: blue;
+   text-align: center;
+ }
+ .services-icon{
+   background-color: blue;
+   width: 50px;
+   height: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+   color: aliceblue;
+   font-size: 2rem;
+   border-radius: 0.5rem;
+ }
+
+.servicep{
+   font-size:14px;
+}
+.card-body{
+   width: 100%;
+}
+/* prices start from here */
+.free{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: rgba(40, 40, 215, 0.754);
+   color: aliceblue;
+   font-weight: bold;
+   padding: 20px 15px;
+}
+.top{
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+}
+.money ul li{
+   list-style: none;
+   align-items: center;
+   display: flex;
+   justify-content: center;
+}
+.one{
+   background-color: rgb(199, 199, 241);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+}
+.buy{
+   border-radius: 5px;
+   width: 50%;
+   padding: 1rem;
+   background-color: rgba(56, 56, 205, 0.816);
+   color: black;
+   font-weight: bolder;
+
+}
+.no{
+   border-radius: 10px;
+}
+.pricing .row{
+   background-color: #fff;
+}
+
+.free-1{
+   
+       padding: 20px;
+       text-align: center;
+       border-radius: 5px;
+       position: relative;
+       overflow: hidden;
+       
+
+}
+.advanced{
+   background: blueviolet;
+   text-align: center;
+    color: #fff;
+    width: 200px;
+    position: absolute;
+    top: 18px;
+    right: -68px;
+    transform: rotate(45deg);
+    z-index: 1;
+    font-size: 14px;
+    padding: 1px 0 3px 0;
+    
+   
+}
+/* faq starats frohere */
+.accordion-button{
+   background-color: rgba(56, 56, 205, 0.816);
+   color: #fff;
+   border-radius: 1rem !important;
+  
+
+}
+.accordion-item{
+   border-radius: 1rem !important;
+   margin-bottom: 1rem;
+}
+.faq .col-lg-10{
+   margin-left: auto;
+   margin-right: auto;
+}
+.service ul{
+   padding: 0;
+}
+.service ul li
+{
+   list-style: none;
+   display: flex;
+   gap: 1rem;
+   padding: 0;
+
+ }
+.service-icon{
+ font-size: 1.5rem;
+  border-radius: 50%;
+      
+    }
+
+.service-sents p{
+   font-size: .9rem;
+}
+.service-h3{
+   text-align: left;
+   font-size: 1rem;
+}
+.card{
+   box-shadow: 0px 0px 20px 
+color-mix(in srgb, var(--default-color), transparent 90%);
+padding: 2rem ;
+}
+.footer .row li{
+   list-style: none;
+}
+.footer .row .col-md-3{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+}
+.footer .container-fluid{
+   padding: 10px 20px;
+}
+.suraj{
+   color: rgba(32, 32, 200, 0.78);
+}
+@media(max-width:576px){
+   .hero-text{
+      text-align: center;
+   }
+   .hero-text p{
+      padding: 10px;
+   }
+   
+   .card{
+      padding: 0px;
+   }
+
+}@media(max-width:769px){
+   .nav-item a:hover::before{
+      display: none;
+      
+   }
+   .nav-item a:hover{
+      background-color: rgba(43, 43, 216, 0.333);
+   }
+   
+}
